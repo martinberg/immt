@@ -11,4 +11,4 @@ description: Use this area of the page to describe your project. Lorem ipsum dol
 ---
 test
 
-![/assets/images/Husqvarna-256A-snow.jpg](/img/portfolio/Husqvarna-256A-snow.jpg)
+![/assets/images/Husqvarna-256A-snow.jpg](img/portfolio/Husqvarna-256A-snow.jpg)

@@ -1,7 +1,7 @@
 # Site settings
 title: IMMT
 email: info@immt.se
-url: https://immt.se
+url: https://martinberg.github.io/immt/
 description: "Gräv och "
 keywords: "your keywords, separated by commas"
 skills: "Grävning - Dikning - Kafferep"
@@ -23,7 +23,7 @@ contact: static
 # https://help.disqus.com/customer/portal/articles/466208
 disqus_shortname: myshortname
 
-background_image: /img/background.jpg
+background_image: img/background.jpg
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
