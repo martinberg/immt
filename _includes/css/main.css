@@ -82,13 +82,14 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #{{ site.color.primary }};
+    background-image: url({{ site.background_image }});
+    background-size: cover;
 }
 
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
+    min-height: 80vh;
 }
 
 header img {
@@ -102,11 +103,33 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+
+    color: white;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+
+    color: white;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
 }
 
 @media(min-width:768px) {
@@ -120,7 +143,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 2em;
     }
 }
 
